@@ -1,0 +1,160 @@
+INTRODUCTION TO PYTHON PROGRAMMING
+
+#PRINT_STATEMENT:
+
+print('This is an example of print function')
+print("Hello")
+>> Hello
+
+print('Hi '+str(5)
+>> Hi 5
+
+print(int('8')+5)
+>> 13
+
+print(Float('8.5')+5)
+>> 13.5
+
+#SINGLE_LINE_COMMENTS
+
+'''
+asdasfvjnskvb
+asdvkkjnkjnkj
+nbvjaksfv
+asdc
+jnj
+
+'''
+
+
+#MATH:
+
+>>> 1+3
+4
+
+>>> 3-1
+2
+
+>>> 10*2
+20
+
+>>> 12/6
+2
+
+>>> 5/34
+0.1470588
+
+>>> 4**4
+256
+
+#VARIABLES:
+
+example:
+a = 10
+print(a)
+
+
+x,y = (10,20)
+print(x)
+print(y)
+
+>>>10
+>>>20
+
+
+#CONDITION_STATEMETS
+
+1) While:
+
+c = 1                                                           #Assigning variable and value
+while c < 10:                                                   #Condition
+	print(c)                                                      #Print Statement
+	c = c+1 or c += 1 #increment                                  #increment
+
+while true:                                                     #Boolean
+ print("Code Everyday") #It_runs_infinite_times
+
+
+2) For loop:
+
+                                                                #list-> group of elements with square brackets
+l = [1,2,3,4,5,6,7,8,9,10]
+for num in l:
+	print(num)
+	print('Number')                                               #prints_each_number_with_'Number'
+
+
+
+type 2:
+for x in range(1,21)
+	print(x)                                                       #prints_number_from_1_to_20 
+
+
+
+
+3) IF Statement:
+
+x = 7
+y = 10
+
+#condition:
+
+if x > y:
+   print(x)
+
+
+#example 2:
+
+x = 7
+y = 10
+z = 5
+
+if x < y and x < z:
+   print(x)
+
+if x <= z:
+  print("x is lesser than or equal to z")
+
+
+if x == z:
+ print("x is equal to z")
+
+if x != z:
+print("x is not equal to z")
+
+
+
+3.1)Else Statement
+
+x = 7
+y = 10
+
+#condition
+
+if x > y:
+   print(x)
+else:
+   print(y)
+
+if x <= z:
+  print(x)
+else:
+  print(z)
+
+if x == z:
+ print("x is equal to z")
+else:
+  print("x is not equal to z")
+
+3.2)ELIF
+x = 7
+y = 10
+z = 5
+
+if x < y and x < z:
+   print(x)
+elif y > x and y > z
+   print(y)
+else:
+   print(z)
+
