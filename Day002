@@ -1,0 +1,108 @@
+#FUNCTIONS:
+
+def functionname():
+	print("Hello")
+	a = 5+5
+	print(a)
+(functionname())
+
+>>> Hello
+>>> 10
+
+
+
+#PARAMETERS:
+
+def funcname(parameter1,parameter2):
+	s = parameter1 + parameter2
+	print('p1 is',parameter1)
+	print(s)
+funcname(88 , 12)
+
+>>> p1 is 88
+>>>100
+
+
+
+#FUNCTION PARAMETER DEFAULTS:
+
+def example(num,number = 6):
+    print(num,number)
+(example(3))
+
+>>>(3,6)		
+
+
+def simple(height,width):
+    print(height,width)
+(simple(25,40)	
+
+>>>25 40
+
+
+
+#GLOBAL_AND_LOCAL_VARIABLES:
+
+x = 8                                                            #Global Variable
+def name():
+   a = 10
+   print(a)
+   
+>>> 10
+
+ x = 8                                                           #Global Variable
+def name():
+   print(x)
+   print(x+5)
+
+>>>8 
+>>>13 
+
+
+x = 8
+def name():
+   global x
+   print(x)
+   x = x+5                                                        #Increment
+   print(x)
+name()
+
+>>>6
+>>>11
+
+
+#INSTALLING_PACKAGES_AND_LIBRARIES
+
+Refer YouTube Channel:
+@sentdex --> Python Collection --> Video 15,16.
+
+https://www.youtube.com/watch?v=UKXx4e9PotI&list=PLQVvvaa0QuDe8XSftW-RAxdo6OmaeL85M&index=15
+https://www.youtube.com/watch?v=jnpC_Ib_lbc&list=PLQVvvaa0QuDe8XSftW-RAxdo6OmaeL85M&index=16
+
+
+
+
+#WRITING_THE_FILE:
+
+text = "Sample Text"
+saveFile = open('exampleFile.txt','w')                             #AnyFile.txt
+saveFile.write(text)
+saveFile.close()
+
+>>>Sample Text
+
+
+
+#APPENDING_FILES:
+
+append = 'Information'
+appendFile = open('exampleFile.txt','a')                           #AnyFile.txt
+appendFile.write(append)
+appendFile.close()
+
+
+#READ_FILES:
+
+readMe = open('exampleFile.txt','r').read()                        #AnyFile.txt
+print(readMe)
+	
