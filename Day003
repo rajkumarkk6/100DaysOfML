@@ -1,0 +1,165 @@
+# CLASSES:
+ 
+class calculator:
+	def addition(x,y)
+	add = x + y
+	print(add)
+
+	def subtraction(x,y)
+	sub = x - y
+	print(sub)
+
+	def multiplication
+	sub = x * y
+	print(mul)
+
+	def division
+	div = x / y
+	print(div)
+
+calculator.addition(3,8)
+>>>11
+
+
+#GETTING_USER_INPUT:
+
+x = input('What is your name?')
+print('Hello',x)
+
+>>>What is your name? Jack
+>>>Hello Jack
+
+
+#STATISTICS:
+
+import statistics
+
+list = [5,4,6,9,6,6,9,8,4,5,1]
+x = statistics.mean(list)
+print(x)
+
+list = [5,4,6,9,6,6,9,8,4,5,1]
+x = statistics.median(list)
+print(x)
+
+list = [5,4,6,9,6,6,9,8,4,5,1]
+x = statistics.stdev(list)
+print(x)
+
+list = [5,4,6,9,6,6,9,8,4,5,1]
+x = statistics.variance(list)
+print(x)
+
+
+
+
+#MODULES:
+
+import statistics as s
+
+list = [5,4,6,9,6,6,9,8,4,5,1]
+x = s.mean(list)
+print(x)
+
+
+from statistics import variance
+list = [5,4,6,9,6,6,9,8,4,5,1]
+x = variance(list)
+print(x)
+
+
+from statistics import variance as v
+list = [5,4,6,9,6,6,9,8,4,5,1]
+x = variance(list)
+print(x)
+
+from statistics import variance , mean
+list = [5,4,6,9,6,6,9,8,4,5,1]
+x = variance(list)
+y = mean(list)
+print(x)
+print(y)
+
+from statistics import variance as v , mean as m
+list = [5,4,6,9,6,6,9,8,4,5,1]
+x = v(list)
+y = m(list)
+print(x)
+print(y)
+
+
+from statistics import *
+list = [5,4,6,9,6,6,9,8,4,5,1]
+x = variance(list)
+y = mean(list)
+print(x)
+print(y)
+
+
+
+#MAKING_OWN_MODULES:
+
+import examplemod
+examplemod.ex('test')
+>>>test
+
+
+
+#LIST_AND_TUPLES
+
+x = 5,6,8,2     #TUPLES
+x = (5,6,8,2)   #TUPLES
+y = [5,6,8,2]   #LIST
+
+
+x = (5,6,8,2)  
+y = [5,6,8,2] 
+print(x[0])
+print(y[2])
+>>>5
+>>>8	
+
+
+#LIST_MANIPULATION
+
+x = [2,1,3,6,5,4]
+#adding_elements
+
+x.append(2)
+print(x)
+>>>2,1,3,6,5,4,2
+
+
+x = [2,1,3,6,5,4]
+x.insert(2,15) --> index,value
+>>> 2,1,15,6,5,4
+
+
+x = [2,1,15,6,5,4]
+x.remove(2)
+>>>2,1,6,5,4
+
+x = [2,1,15,6,5,4]
+x.remove(x[2])	
+>>>2,1,6,5,4	
+
+
+x = [2,1,3,6,5,4]
+print(x[3])             #index_value_4th_element
+>>>6
+
+x = [2,1,3,6,5,4]
+print(x[0:3])                 #between_elements
+>>>2,1,3
+
+x = [2,1,3,6,5,4]
+print(x[-1])                     #Reverse
+>>>4
+
+
+x = [2,1,3,6,5,4] 
+print(x.count(6))		             #count
+
+x = [2,1,3,6,5,4]
+print(x.sort()) 		             #sort
+
