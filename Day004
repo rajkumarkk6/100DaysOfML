@@ -1,0 +1,124 @@
+#ERROR HANDLING:
+ 
+try:
+
+	Statements  (if ,else)
+
+	except:
+	print the statement
+
+
+
+#MULTILINE PRINT:
+
+print(''' 
+This is a simple
+multi line
+print statement
+
+==============
+|	      |
+|	      |
+|    BOX      |
+|	      |
+|	      |
+==============
+''')
+
+
+
+#DICTIONARIES:
+
+Dict is represented as {}
+
+Dict = {'jack':15,'Bob':10,'Jim':25,'Ken':20}
+print(Dict)
+
+print(Dict['jack']
+
+Dict = ['Tim'] = 29
+print(Dict0
+>>>,'Tim'":29'Jack':15,'Bob':10,'Jim':25,'Ken':20
+
+
+del Dict['Tim']
+print(Dict)
+>>>jack':15,'Bob':10,'Jim':25,'Ken':20
+
+
+
+
+#BUILT_IN_FUNCTION:
+
+
+num1 = -5
+num = 5
+print(abs(num1))
+
+>>>5
+
+if abs(num1) == num:
+	print("Same")
+>>>Same
+
+
+list = [5,2,6,7,8,0]
+print(max(list))
+>>>8
+
+import math
+x = 5.622
+print(math.floor(x))
+>>>5
+
+print(math.ceil(x))
+>>>6
+
+
+h = 5
+print(h)
+>>>5
+
+print(int(h))
+>>>5
+
+print(float(h))
+>>>5.0
+
+
+
+
+#OS_MODULE
+
+import os
+Dir = os.getcwd()
+print(Dir)				#currentWorkingDirectory(CWD)
+
+os.mkdir('newDir')			#createsNewDirectory
+
+import time
+time.sleep(2)
+
+os.rename('newDir','dir')		#renameCurrentDirectory
+time.sleep(2)
+
+os.rmdir('dir')				#removeDirectory
+
+
+#SYS_MODULE:
+
+import sys  
+
+sys.stderr.write('test')
+sys.stderr.flush()
+>>>test
+sys.stdout.write('text')
+>>>test text
+print(sys.argv) -->>FILEPATH
+
+
+
+#URILIB_REFER_YOUTUBE
+@sentdex	
+
+
